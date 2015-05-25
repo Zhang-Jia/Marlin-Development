@@ -489,7 +489,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // default settings
 //设置轴移动1mm(PER_UNIT)所需的步数，参数顺序为X,Y,Z,E,其中X,Y轴的200是计算器算出的，电机齿轮用的是GT2,16齿轮
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {200,200,400.0*16/1.25,1000}  // E1095.1 default steps per unit for MENDEL,ZJC2015-4-2 20:52:46/之前E值，(400.0*16*4.3/(3.1415926*8))/2.4,ZJC2015-5-18 23:30:58
-#define DEFAULT_MAX_FEEDRATE          {500, 500, 2.5, 25}    // (mm/sec)打出的线条断断续续的，把此处的25调到50.
+#define DEFAULT_MAX_FEEDRATE          {500, 500, 2.5, 25}
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          3000    // X, Y, Z and E max acceleration in mm/s^2 for printing moves
